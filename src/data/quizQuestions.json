@@ -1,0 +1,93 @@
+{
+  "levels": {
+    "1": {
+      "name": "非遗初识",
+      "icon": "🌱",
+      "type": "judge",
+      "description": "判断题入门",
+      "color": "#B22222",
+      "questions": [
+        { "id": 1, "question": "景泰蓝是瓷器吗？", "options": ["对", "错"], "answer": 1, "difficulty": 1, "type": "judge", "region": "北京", "item": "景泰蓝制作技艺", "explanation": "景泰蓝其实是金属工艺，全称\"铜胎掐丝珐琅\"，因在明朝景泰年间盛行且多用蓝色釉料而得名。" },
+        { "id": 2, "question": "苏绣一根丝线可以劈成1/128根使用？", "options": ["对", "错"], "answer": 0, "difficulty": 1, "type": "judge", "region": "江苏苏州", "item": "苏绣", "explanation": "苏绣技艺精湛，一根丝线可劈成1/128根使用，展现出极致细腻的针法。" },
+        { "id": 3, "question": "京剧是中国最古老的戏曲剧种？", "options": ["对", "错"], "answer": 1, "difficulty": 1, "type": "judge", "region": "北京", "item": "京剧", "explanation": "京剧形成于清代，而昆曲已有600多年历史，被誉为\"百戏之祖\"。" }
+      ]
+    },
+    "2": {
+      "name": "类别辨识",
+      "icon": "🎯",
+      "type": "choice",
+      "description": "选择题进阶",
+      "color": "#DAA520",
+      "questions": [
+        { "id": 4, "question": "以下哪个属于传统美术？", "options": ["剪纸", "京剧", "皮影戏", "古琴"], "answer": 0, "difficulty": 2, "type": "choice", "region": "陕西西安", "item": "剪纸", "explanation": "剪纸是中国最普及的民间艺术之一，2009年入选人类非遗名录。" },
+        { "id": 5, "question": "以下哪个属于传统戏剧？", "options": ["苏绣", "昆曲", "陶瓷", "古琴"], "answer": 1, "difficulty": 2, "type": "choice", "region": "江苏苏州", "item": "昆曲", "explanation": "昆曲被称为\"百戏之祖\"，2001年被联合国教科文组织列为首批人类非物质文化遗产。" },
+        { "id": 6, "question": "以下哪个属于传统技艺？", "options": ["皮影戏", "端午节", "景德镇陶瓷", "古琴"], "answer": 2, "difficulty": 2, "type": "choice", "region": "江西景德镇", "item": "景德镇陶瓷", "explanation": "景德镇手工制瓷技艺已有千年历史，青花瓷、粉彩瓷等享誉世界。" }
+      ]
+    },
+    "3": {
+      "name": "地域匹配",
+      "icon": "📍",
+      "type": "match",
+      "description": "连线题挑战",
+      "color": "#C9A96E",
+      "questions": [
+        { "id": 7, "question": "苏绣的产地是？", "options": ["四川", "江苏", "广东", "湖南"], "answer": 1, "difficulty": 3, "type": "choice", "region": "江苏苏州", "item": "苏绣", "explanation": "苏绣产自江苏苏州，以针法精细、色彩雅致著称，是中国四大名绣之首。" },
+        { "id": 8, "question": "蜀绣的产地是？", "options": ["四川", "江苏", "广东", "湖南"], "answer": 0, "difficulty": 3, "type": "choice", "region": "四川成都", "item": "蜀绣", "explanation": "蜀绣产自四川成都，以针法严谨、色彩艳丽著称。" },
+        { "id": 9, "question": "粤绣的产地是？", "options": ["四川", "江苏", "广东", "湖南"], "answer": 2, "difficulty": 3, "type": "choice", "region": "广东广州", "item": "粤绣", "explanation": "粤绣产自广东，以构图饱满、色彩富丽著称。" }
+      ]
+    },
+    "4": {
+      "name": "匠人故事",
+      "icon": "📜",
+      "type": "fill",
+      "description": "填空题考验",
+      "color": "#8B4513",
+      "questions": [
+        { "id": 10, "question": "____窑的烧制技艺已传承1300年", "options": ["景德镇", "宜兴", "德化", "唐山"], "answer": 0, "difficulty": 4, "type": "fill", "region": "江西景德镇", "item": "景德镇陶瓷", "explanation": "景德镇是中国著名的\"瓷都\"，其手工制瓷技艺已有千年历史。" },
+        { "id": 11, "question": "____被誉为\"百戏之祖\"", "options": ["昆曲", "京剧", "秦腔", "越剧"], "answer": 0, "difficulty": 4, "type": "fill", "region": "江苏苏州", "item": "昆曲", "explanation": "昆曲发源于江苏昆山，距今已有600多年历史，是中国最古老的剧种之一。" },
+        { "id": 12, "question": "____是中国首个入选联合国非遗的节日", "options": ["端午节", "春节", "中秋节", "元宵节"], "answer": 0, "difficulty": 4, "type": "fill", "region": "湖南长沙", "item": "端午节", "explanation": "端午节是中国首个入选联合国教科文组织人类非遗的节日。" }
+      ]
+    },
+    "5": {
+      "name": "工艺顺序",
+      "icon": "🔧",
+      "type": "sort",
+      "description": "排序题通关",
+      "color": "#5C1A1A",
+      "questions": [
+        { "id": 13, "question": "请按正确顺序排列苏绣制作工序", "options": ["设计", "选材", "刺绣", "装裱"], "answer": [1, 0, 2, 3], "difficulty": 5, "type": "sort", "region": "江苏苏州", "item": "苏绣", "explanation": "苏绣制作需经过选材、设计、刺绣、装裱等多个工序，每一步都需精益求精。" },
+        { "id": 14, "question": "请按正确顺序排列陶瓷烧制工序", "options": ["成型", "制坯", "上釉", "烧制"], "answer": [1, 0, 2, 3], "difficulty": 5, "type": "sort", "region": "江西景德镇", "item": "景德镇陶瓷", "explanation": "陶瓷烧制需经过制坯、成型、上釉、烧制等工序，其中烧制是最关键的一步。" },
+        { "id": 15, "question": "请按正确顺序排列剪纸制作工序", "options": ["剪裁", "构思", "装裱", "画稿"], "answer": [3, 1, 0, 2], "difficulty": 5, "type": "sort", "region": "陕西西安", "item": "剪纸", "explanation": "剪纸制作需经过构思、画稿、剪裁、装裱等工序，展现出民间艺人的巧手匠心。" }
+      ]
+    },
+    "6": {
+      "name": "非遗传承者",
+      "icon": "👑",
+      "type": "comprehensive",
+      "description": "综合BOSS关",
+      "color": "#1a1a1a",
+      "questions": [
+        { "id": 16, "question": "它被誉为\"中国古代音乐活化石\"，保留着唐宋宫廷音乐的遗韵，2009年入选人类非遗。这指的是？", "options": ["西安鼓乐", "编钟", "纳西古乐", "南音"], "answer": 0, "difficulty": 6, "type": "choice", "region": "陕西西安", "item": "西安鼓乐", "explanation": "西安鼓乐被誉为\"中国古代音乐活化石\"，是唐代宫廷音乐流传至今的活态遗存。" },
+        { "id": 17, "question": "它是中国最古老的弹拨乐器之一，有三千多年历史，2003年被列入人类非遗代表作名录。这指的是？", "options": ["古筝", "琵琶", "古琴", "二胡"], "answer": 2, "difficulty": 6, "type": "choice", "region": "北京", "item": "古琴", "explanation": "古琴是中国最古老的弹拨乐器之一，承载着深厚的文化内涵。" },
+        { "id": 18, "question": "它是中国四大名锦之一，产地四川成都，已有两千多年历史。这指的是？", "options": ["云锦", "宋锦", "蜀锦", "壮锦"], "answer": 2, "difficulty": 6, "type": "choice", "region": "四川成都", "item": "蜀锦", "explanation": "蜀锦产自四川成都，与南京云锦、苏州宋锦、广西壮锦并称中国四大名锦。" }
+      ]
+    }
+  },
+  "artisanTitles": [
+    { "minLevel": 1, "maxLevel": 2, "title": "初级学徒", "icon": "🧑‍🎨", "description": "刚入门的非遗学习者" },
+    { "minLevel": 3, "maxLevel": 4, "title": "熟练工匠", "icon": "👨‍🏭", "description": "掌握多种技艺的匠人" },
+    { "minLevel": 5, "maxLevel": 6, "title": "非遗传承人", "icon": "🏆", "description": "传承非遗文化的守护者" }
+  ],
+  "regionMap": {
+    "北京": { "name": "北京", "lat": 116.4074, "lng": 39.9042, "items": ["京剧", "景泰蓝制作技艺"] },
+    "江苏苏州": { "name": "苏州", "lat": 120.6196, "lng": 31.2991, "items": ["苏绣", "昆曲"] },
+    "四川成都": { "name": "成都", "lat": 104.0668, "lng": 30.5728, "items": ["蜀绣", "蜀锦"] },
+    "广东广州": { "name": "广州", "lat": 113.2644, "lng": 23.1291, "items": ["粤绣", "岭南古琴"] },
+    "湖南长沙": { "name": "长沙", "lat": 112.9388, "lng": 28.2280, "items": ["湘绣", "花鼓戏"] },
+    "江西景德镇": { "name": "景德镇", "lat": 117.2272, "lng": 29.3128, "items": ["景德镇陶瓷"] },
+    "陕西西安": { "name": "西安", "lat": 108.9480, "lng": 34.2631, "items": ["西安鼓乐", "皮影戏"] },
+    "浙江杭州": { "name": "杭州", "lat": 120.1551, "lng": 30.2741, "items": ["西湖龙井", "越剧"] },
+    "云南丽江": { "name": "丽江", "lat": 100.2502, "lng": 26.8639, "items": ["东巴文化", "纳西古乐"] },
+    "福建泉州": { "name": "泉州", "lat": 118.5855, "lng": 24.8017, "items": ["南音", "木偶戏"] }
+  }
+}

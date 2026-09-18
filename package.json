@@ -1,0 +1,25 @@
+{
+  "name": "feiyi-culture",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:all": "concurrently \"vite\" \"node server/app.js\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server/app.js",
+    "db:init": "node -e \"console.log('Please run schema.sql and seed.sql in MySQL')\""
+  },
+  "dependencies": {
+    "axios": "^1.16.1",
+    "echarts": "^5.5.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "concurrently": "^9.2.1",
+    "vite": "5.4.10"
+  }
+}
